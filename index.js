@@ -113,7 +113,7 @@ function handlePayment() {
             type="tel"
             id="card-number"
             name="card-number"
-            placeholder="Enter card number"
+            placeholder="Enter card number (12 digits)"
             inputmode="numeric"
             pattern="[0-9\s]{12,16}"
             autocomplete="cc-number"
@@ -124,7 +124,7 @@ function handlePayment() {
             type="tel"
             id="cvv"
             name="cvv"
-            placeholder="Enter CVV"
+            placeholder="Enter CVV (3 digits)"
             inputmode="numeric"
             pattern="[0-9\s]{3,4}"
             autocomplete="cc-csc"
@@ -165,10 +165,8 @@ function handlePayment() {
 
     if (
       !name ||
-      !(cardNumberLength >= 12) ||
-      !(cardNumberLength <= 16) ||
-      !(cvvLength >= 3) ||
-      !(cvvLength <= 4)
+      !(cardNumberLength >= 12 && cardNumberLength <= 16) ||
+      !(cvvLength >= 3 && cvvLength <= 4)
     ) {
       alert("Please fill out all the fields correctly.");
       return false;
