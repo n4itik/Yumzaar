@@ -1,6 +1,6 @@
 :root {
-  --bg-color-dark: #1c1c1c; /* Darker background color */
-  --bg-color-darker: #121212; /* Dark background color */
+  --bg-color-dark: #1c1c1c;
+  --bg-color-darker: #121212;
   --text-color-light: #ffffff;
   --text-color-dark: #8b8b8b;
   --border-color: #363636;
