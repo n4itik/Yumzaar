@@ -188,10 +188,6 @@ header p {
   color: var(--text-color-light);
 }
 
-.hidden {
-  display: none;
-}
-
 /* SUCCESS */
 
 .order-complete {
