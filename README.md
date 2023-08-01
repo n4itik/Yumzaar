@@ -4,10 +4,7 @@ Yumzaar is a basic food ordering web app. The users can add items from the menu 
 
 ### Screenshot
 
-<img src="images/screenshot.png" height="500">
-
-![](screenshots/desktop-content.png)
-![](screenshots/desktop-footer.png)
+<img src="images/screenshot.png" height="600">
 
 ### Link
 
