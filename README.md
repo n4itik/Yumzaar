@@ -15,7 +15,3 @@ Yumzaar is a basic food ordering web app. The users can add items from the menu 
 - HTML
 - CSS
 - JavaScript
-
-### Continued development
-
-When the user clicks outside the modal, the modal should be hidden allowing the user to alter the current order.
